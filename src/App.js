@@ -21,10 +21,15 @@ function App() {
     },
   ])
 
+  //Delete task
+  const deleteTask = (id) => {
+    console.log('delete', id)
+  }
+
   return (
     <div className="container">
-     <Header title='Next task'/>
-     <Tasks tasks={tasks}/>
+     <Header />
+     <Tasks tasks={tasks} onDelete={deleteTask} />
     </div>    
   );
 }
