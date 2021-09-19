@@ -58,7 +58,7 @@ body {
 }
 
 .task {
-  background: #f4f4f4;
+  background: rgb(247, 236, 223);
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
